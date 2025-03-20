@@ -1,0 +1,61 @@
+# Titanic Survival Prediction
+
+## Overview
+This project aims to develop a machine learning model that predicts whether a passenger survived the Titanic disaster based on various features such as age, gender, ticket class, fare, and cabin information.
+
+## Dataset
+The dataset contains information on Titanic passengers, including:
+- Age
+- Gender
+- Ticket class (Pclass)
+- Fare
+- Cabin information
+- Other relevant features
+
+## Preprocessing Steps
+- Handling missing values
+- Encoding categorical variables
+- Normalizing numerical data
+
+## Model Development
+- Implemented multiple classification models to predict survival
+- Evaluated models using accuracy, precision, recall, and F1-score
+- Selected the best-performing model based on evaluation metrics
+
+## Expected Outcome
+A well-trained classification model with strong survival prediction accuracy.
+
+## Repository Structure
+```
+|-- Titanic-Survival-Prediction
+    |-- data/                  # Dataset files
+    |-- notebooks/             # Jupyter Notebooks for analysis and modeling
+    |-- models/                # Saved models
+    |-- src/                   # Source code for preprocessing and model training
+    |-- README.md              # Project documentation
+    |-- requirements.txt       # Dependencies
+```
+
+## Evaluation Metrics
+The model is evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+## Models
+-Logistic Regression :  80.97
+-Support Vector      :  81.72
+-Decision Tree       :  79.85
+-K-NN Classifier     :  80.6
+-Random Forest       :  83.58
+-Logistic Regression :  80.97
+-Support Vector      :  81.72
+-Decision Tree       :  79.85
+-K-NN Classifier     :  80.6
+-Random Forest       :  83.58
+
+## Contributions
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+
